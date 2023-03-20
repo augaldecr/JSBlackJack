@@ -1,5 +1,8 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-    base: '/JSBlackJack/'
+    base: '/JSBlackJack/',
+    build: {
+        outDir: 'docs'
+    }
 })
